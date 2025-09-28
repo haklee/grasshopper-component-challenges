@@ -1,5 +1,5 @@
-_msg = "Wrong: Sum of {} and {} is not equal to {}."
+_msg = "Wrong: Expected {} but got {}."
 
 
-def judge(a, b, c):
-    return "Correct" if a == b else (_msg.format(a, b, c))
+def judge(a, b):
+    return "Correct" if a == b else (_msg.format(a, b))
