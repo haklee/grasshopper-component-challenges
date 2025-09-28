@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include pyproject.toml
+include setup.py
+recursive-include grasshopper_challenges *.py
+recursive-include grasshopper_challenges *.txt
+recursive-exclude grasshopper_challenges/docs *
