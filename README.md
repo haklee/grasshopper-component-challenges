@@ -4,11 +4,17 @@ A collection of coding challenges for Grasshopper components.
 
 ## Installation
 
-WIP
+Using pip:
+
+```bash
+pip install git+https://github.com/haklee/grasshopper-component-challenges.git
+```
+
+Or download the ZIP from the [repository](https://github.com/haklee/grasshopper-component-challenges).
 
 ## Usage
 
-Access to test cases like,
+Access test cases like this:
 
 ```python
 # Access test cases
@@ -18,7 +24,7 @@ print(addition_easy.tc_a)  # Test case inputs A
 print(addition_easy.tc_b)  # Test case inputs B
 ```
 
-Or, access to judges like,
+Or access judges like this:
 
 ```python
 # Use judges
