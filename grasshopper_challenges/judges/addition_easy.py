@@ -1,2 +1,5 @@
-def judge(a, b):
-    return "Correct" if a == b else ("Wrong: {} is not equsl to {}.".format(a, b))
+_msg = "Wrong: Sum of {} and {} is not equal to {}."
+
+
+def judge(a, b, c):
+    return "Correct" if a == b else (_msg.format(a, b, c))
