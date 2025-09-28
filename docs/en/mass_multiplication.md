@@ -14,5 +14,7 @@
 
 ### Easy
 
-- There are only three values in the list.
-- All values in the list satisfy `-10 <= v <= 10`.
+- [.ghx file](../../problems/mass_multiplication_easy.ghx)
+- conditions:
+    - There are only three values in the list.
+    - All values in the list satisfy `-10 <= v <= 10`.

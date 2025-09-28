@@ -14,4 +14,6 @@
 
 ### Easy
 
-- Both input A and B are `float` type.
+- [.ghx file](../../problems/addition_easy.ghx)
+- conditions:
+    - Both input A and B are `float` type.

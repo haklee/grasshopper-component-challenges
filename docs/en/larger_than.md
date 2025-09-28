@@ -15,4 +15,6 @@
 
 ### Easy
 
-- Both input A and B are `float` type.
+- [.ghx file](../../problems/larger_than_easy.ghx)
+- conditions:
+    - Both input A and B are `float` type.

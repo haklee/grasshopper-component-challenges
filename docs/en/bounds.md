@@ -13,5 +13,7 @@
 
 ### Easy
 
-- There are only five values in the list.
-- All values in the list satisfies `-10 <= v <= 10`.
+- [.ghx file](../../problems/bounds_easy.ghx)
+- conditions:
+    - There are only five values in the list.
+    - All values in the list satisfies `-10 <= v <= 10`.

@@ -13,4 +13,6 @@
 
 ### Easy
 
-- Input x is `float` type.
+- [.ghx file](../../problems/absolute_easy.ghx)
+- conditions:
+    - Input x is `float` type.
