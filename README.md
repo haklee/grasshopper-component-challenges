@@ -44,8 +44,9 @@ grasshopper_challenges/
 
 # Development repository structure:
 ├── grasshopper_challenges/  # Main package
-├── docs/                   # Documentation (dev only)
-├── setup.py               # Package configuration
-├── pyproject.toml         # Modern packaging config
-└── README.md              # This file
+├── docs/                    # Documentation (dev only)
+├── problems/                # .ghx files (dev only)
+├── setup.py                 # Package configuration
+├── pyproject.toml           # Modern packaging config
+└── README.md                # This file
 ```
