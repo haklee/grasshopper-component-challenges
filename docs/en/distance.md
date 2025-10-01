@@ -16,4 +16,4 @@
 
 - [.ghx file](../../problems/distance_standard.ghx)
 - conditions:
-    - Both input A and B are `float` type.
+    - Both input A and B are `Point3d` type.
