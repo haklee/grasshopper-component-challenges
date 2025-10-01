@@ -13,6 +13,6 @@
 
 ### Standard
 
-- [.ghx file](../../problems/absolute_easy.ghx)
+- [.ghx file](../../problems/unit_x_standard.ghx)
 - conditions:
     - Input F is `float` type.
