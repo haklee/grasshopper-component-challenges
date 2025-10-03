@@ -5,4 +5,6 @@ _tc = [
     22222222222222222,
 ]
 
-tc = list(map(float, _tc))
+from .helper.mapper import map_to_float
+
+tc = map_to_float(_tc)

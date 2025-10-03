@@ -7,6 +7,6 @@ _tc = [
     (-1, 2, 3000000000000000000),
 ]
 
-from Rhino.Geometry import Vector3d
+from .helper.mapper import map_to_vector3d_list
 
-tc = [Vector3d(*_v) for _v in [map(float, _i) for _i in _tc]]
+tc = map_to_vector3d_list(_tc)

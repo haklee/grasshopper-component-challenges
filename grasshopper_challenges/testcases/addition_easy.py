@@ -6,6 +6,7 @@ _tc = [
     (123456789123456789, -123456789123456788),
 ]
 
-tc_a = list(map(float, [_i[0] for _i in _tc]))
+from .helper.mapper import map_to_float_list
 
-tc_b = list(map(float, [_i[1] for _i in _tc]))
+tc_a = map_to_float_list(zip(*_tc)[0])
+tc_b = map_to_float_list(zip(*_tc)[1])

@@ -17,8 +17,7 @@ _tc = [
     ),
 ]
 
-from Rhino.Geometry import Point3d
+from .helper.mapper import map_to_point3d_list
 
-tc_a = [Point3d(*_pt) for _pt in [map(float, [_j for _j in _i[0]]) for _i in _tc]]
-
-tc_b = [Point3d(*_pt) for _pt in [map(float, [_j for _j in _i[1]]) for _i in _tc]]
+tc_a = map_to_point3d_list(zip(*_tc)[0])
+tc_b = map_to_point3d_list(zip(*_tc)[1])

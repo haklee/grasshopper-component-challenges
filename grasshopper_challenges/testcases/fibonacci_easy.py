@@ -6,8 +6,8 @@ _tc = [
     (2, 3, 20),
 ]
 
-tc_a = list(map(float, [_i[0] for _i in _tc]))
+from .helper.mapper import map_to_float, map_to_int
 
-tc_b = list(map(float, [_i[1] for _i in _tc]))
-
-tc_n = list(map(int, [_i[2] for _i in _tc]))
+tc_a = map_to_float(zip(*_tc)[0])
+tc_b = map_to_float(zip(*_tc)[1])
+tc_n = map_to_int(zip(*_tc)[2])
