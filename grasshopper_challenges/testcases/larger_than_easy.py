@@ -6,7 +6,7 @@ _tc = [
     (123456789123456789, 123456789123456788),
 ]
 
-from .helper.mapper import map_to_float
+from .helper.mapper import map_to_float_list
 
-tc_a = map_to_float(zip(*_tc)[0])
-tc_b = map_to_float(zip(*_tc)[1])
+tc_a = map_to_float_list(zip(*_tc)[0])
+tc_b = map_to_float_list(zip(*_tc)[1])
