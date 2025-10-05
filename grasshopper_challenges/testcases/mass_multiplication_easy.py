@@ -3,6 +3,6 @@ _tc = [
     [2, 2.7, -3.666],
 ]
 
-from .helper.mapper import map_to_float
+from .helper.mapper import map_to_float_list
 
-tc = [map_to_float(_i) for _i in _tc]
+tc = [map_to_float_list(_i) for _i in _tc]
