@@ -13,6 +13,6 @@
 
 ### Standard
 
-- [.ghx file](../../problems/unit_x_standard.ghx)
+- [.ghx file](../../problems/pi_standard.ghx)
 - conditions:
     - Input N is `float` type.
