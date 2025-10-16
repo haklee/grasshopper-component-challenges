@@ -1,6 +1,10 @@
 """Map values to target type"""
 
-from Rhino.Geometry import Point3d, Vector3d
+from Rhino.Geometry import (
+    Point3d,
+    Vector3d,
+    PolylineCurve,
+)
 
 
 def map_to_float_list(a):
@@ -31,3 +35,8 @@ def map_to_vector3d(a):
 def map_to_vector3d_list(a):
     """Map list of values to list of Vector3d"""
     return [Vector3d(*_i) for _i in a]
+
+
+def map_to_polyline_curve(a):
+    """Map list of coordinates to Polyline"""
+    return PolylineCurve(map_to_point3d_list(a))
