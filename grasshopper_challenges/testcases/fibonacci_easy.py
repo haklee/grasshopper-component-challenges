@@ -8,6 +8,6 @@ _tc = [
 
 from .helper.mapper import map_to_float_list, map_to_int_list
 
-tc_a = map_to_float_list(zip(*_tc)[0])
-tc_b = map_to_float_list(zip(*_tc)[1])
-tc_n = map_to_int_list(zip(*_tc)[2])
+tc_a = map_to_float_list(list(zip(*_tc))[0])
+tc_b = map_to_float_list(list(zip(*_tc))[1])
+tc_n = map_to_int_list(list(zip(*_tc))[2])

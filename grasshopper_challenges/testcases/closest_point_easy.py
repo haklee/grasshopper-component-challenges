@@ -38,5 +38,5 @@ _tc = [
 
 from .helper.mapper import map_to_point3d_list, map_to_point3d
 
-tc_c = [map_to_point3d_list(pts) for pts in zip(*_tc)[0]]
-tc_p = map_to_point3d_list(zip(*_tc)[1])
+tc_c = [map_to_point3d_list(pts) for pts in list(zip(*_tc))[0]]
+tc_p = map_to_point3d_list(list(zip(*_tc))[1])
