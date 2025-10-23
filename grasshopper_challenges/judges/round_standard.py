@@ -1,15 +1,14 @@
 from .helper.comparer import compare_int
-
-_msg = "Wrong Answer."
+from .helper.messages import correct_answer, wrong_answer
 
 
 def judge_n(a, b):
-    return "Correct" if compare_int(a, b) else _msg
+    return correct_answer() if compare_int(a, b) else wrong_answer()
 
 
 def judge_f(a, b):
-    return "Correct" if compare_int(a, b) else _msg
+    return correct_answer() if compare_int(a, b) else wrong_answer()
 
 
 def judge_c(a, b):
-    return "Correct" if compare_int(a, b) else _msg
+    return correct_answer() if compare_int(a, b) else wrong_answer()

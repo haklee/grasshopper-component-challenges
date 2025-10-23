@@ -1,7 +1,6 @@
 from .helper.comparer import compare_vector3d
-
-_msg = "Wrong: vector {} is not equal to {}."
+from .helper.messages import correct_answer, wrong_answer
 
 
 def judge(a, b):
-    return "Correct" if compare_vector3d(a, b) else (_msg.format(a, b))
+    return correct_answer() if compare_vector3d(a, b) else wrong_answer()
