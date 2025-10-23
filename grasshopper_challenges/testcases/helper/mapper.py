@@ -17,6 +17,11 @@ def map_to_int_list(a):
     return list(map(int, a))
 
 
+def map_to_bool_list(a):
+    """Map list of values to bool"""
+    return list(map(bool, a))
+
+
 def map_to_point3d(a):
     """Map list of values to Point3d"""
     return Point3d(*a)
