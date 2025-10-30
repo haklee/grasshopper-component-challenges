@@ -44,6 +44,13 @@ def compare_vector3d(a, b):
     return a.CompareTo(b) == 0
 
 
+def compare_box(a, b):
+    """Compare two Box values"""
+    # Operator == is not documented in RhinoCommon API page, but it seems to work.
+    # ref: https://developer.rhino3d.com/api/rhinocommon/rhino.geometry.box
+    return a == b
+
+
 def compare_interval(a, b):
     """Compare two Interval values"""
     return a.CompareTo(b) == 0
